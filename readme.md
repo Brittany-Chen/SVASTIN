@@ -1,6 +1,6 @@
 # SVASTIN: Sparse Video Adversarial Attack via Spatio-Temporal Invertible Neural Networks
 
-[Yi Pan](panyi_jsjy@nudt.edu.cn), [Jun-Jie Huang*](https://jjhuangcs.github.io/) (jjhuang@nudt.edu.cn), [Zihan Chen](https://brittany-chen.github.io/)(chenzihan21@nudt.edu.cn), Wentao Zhao, and Ziyue Wang(*corresponding author)
+[Yi Pan](panyi_jsjy@nudt.edu.cn), [Jun-Jie Huang*](https://jjhuangcs.github.io/) (jjhuang@nudt.edu.cn), Zihan Chen, Wentao Zhao, and Ziyue Wang(*corresponding author)
 
 Pytorch implementation for "SVASTIN: Sparse Video Adversarial Attack via Spatio-Temporal Invertible Neural Networks" (ICME'2024).
 
