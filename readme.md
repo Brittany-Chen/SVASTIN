@@ -47,5 +47,16 @@ You can run ```attack.py``` directly.
 If you find this code and data useful, please consider citing the original work by authors:
 
 ```
-
+@inproceedings{Pan2024SVASTIN,
+  title={SVASTIN: Sparse Video Adversarial Attack via Spatio-Temporal Invertible Neural Networks},
+  author={Yi Pan, Jun-Jie Huang, Zihan Chen, Wentao Zhao, Ziyue Wang},
+  booktitle={IEEE International Conference on Multimedia & Expo},
+  volume={},
+  number={},
+  pages={},
+  year={2024}
+}
 ```
+
+## Contact
+If you have any questions, please contact <panyi_jsjy@nudt.edu.cn>.
