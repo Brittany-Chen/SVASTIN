@@ -4,11 +4,11 @@ Yi Pan (panyi_jsjy@nudt.edu.cn), [Jun-Jie Huang*](https://jjhuangcs.github.io/) 
 
 Pytorch implementation for "SVASTIN: Sparse Video Adversarial Attack via Spatio-Temporal Invertible Neural Networks" (ICME'2024).
 
-<img src='imgs/overview.png'/>
+<img src='/Brittany-Chen/SVASTIN/edit/main/imgs/overview.png'/>
 
 Robust and imperceptible adversarial video attack is challenging due to the spatial and temporal characteristics of videos. The existing video adversarial attack methods mainly take a gradient-based approach and generate adversarial videos with noticeable perturbations. In this paper, we propose a novel Sparse Adversarial Video Attack via Spatio-Temporal Invertible Neural Networks (SVASTIN) to generate adversarial videos through spatio-temporal feature space information exchanging. It consists of a Guided Target Video Learning (GTVL) module to balance the perturbation budget and optimization speed and a Spatio-Temporal Invertible Neural Network (STIN) module to perform spatio-temporal feature space information exchanging between a source video and the target feature tensor learned by GTVL module. Extensive experiments on UCF-101 and Kinetics-400 demonstrate that our proposed SVASTIN can generate adversarial examples with higher imperceptibility than the state-of-the-art methods with the higher fooling rate.
 
-<img src='imgs/visualization.png'/>
+<img src='/Brittany-Chen/SVASTIN/edit/main/imgs/visualization.png'/>
 
 
 ## Requisites
@@ -47,14 +47,16 @@ You can run ```attack.py``` directly.
 If you find this code and data useful, please consider citing the original work by authors:
 
 ```
-@inproceedings{Pan2024SVASTIN,
-  title={SVASTIN: Sparse Video Adversarial Attack via Spatio-Temporal Invertible Neural Networks},
-  author={Yi Pan, Jun-Jie Huang, Zihan Chen, Wentao Zhao, Ziyue Wang},
-  booktitle={IEEE International Conference on Multimedia & Expo},
+@INPROCEEDINGS{10688258,
+  author={Pan, Yi and Huang, Jun-Jie and Chen, Zihan and Zhao, Wentao and Wang, Ziyue},
+  booktitle={2024 IEEE International Conference on Multimedia and Expo (ICME)}, 
+  title={SVASTIN: Sparse Video Adversarial Attack via Spatio-Temporal Invertible Neural Networks}, 
+  year={2024},
   volume={},
   number={},
-  pages={},
-  year={2024}
+  pages={1-6},
+  keywords={Tensors;Codes;Perturbation methods;Neural networks;Streaming media;Optimization;Sparse Video Adversarial Attack;Invertible Neural Networks;Spatio-Temporal},
+  doi={10.1109/ICME57554.2024.10688258}
 }
 ```
 
